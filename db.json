@@ -34,6 +34,199 @@
       "age": 45,
       "salary": 80000,
       "designation": "Programmer"
+    },
+    {
+      "id": "4",
+      "name": "Sushant",
+      "age": 45,
+      "salary": 80000,
+      "designation": "Programmer"
+    }
+  ],
+  "products": [
+    {
+      "id": "5",
+      "name": "Smartwatch",
+      "category": "Wearables",
+      "price": 19900,
+      "brand": "Apple",
+      "rating": "4.9"
+    },
+    {
+      "id": "6",
+      "name": "Coffee Maker",
+      "category": "Home Appliances",
+      "price": 49000,
+      "brand": "Philips",
+      "rating": 4.2
+    },
+    {
+      "id": "7",
+      "name": "Electric Guitar",
+      "category": "Musical Instruments",
+      "price": 29900,
+      "brand": "Fender",
+      "rating": 4.6
+    },
+    {
+      "id": "8",
+      "name": "Desk Chair",
+      "category": "Furniture",
+      "price": 14900,
+      "rating": 4.3
+    },
+    {
+      "id": "9",
+      "name": "External HHD",
+      "category": "Accessories",
+      "price": 8900,
+      "brand": "Seagate",
+      "rating": 4.5
+    },
+    {
+      "id": "10",
+      "name": "LED  Lamp",
+      "category": "Lighting",
+      "price": 3900,
+      "brand": "Philips",
+      "rating": 4.2
+    },
+    {
+      "id": "4",
+      "name": "Samsung S25 Ultra",
+      "category": "Mobile",
+      "price": "140000",
+      "brand": "Samsung",
+      "rating": "4.6"
+    }
+  ],
+  "vendors": [
+    {
+      "id": "101",
+      "name": "Tech Hub Distributors",
+      "location": "Mumbai"
+    },
+    {
+      "id": "102",
+      "name": "Gamer's Paradise",
+      "location": "Bangalore"
+    },
+    {
+      "id": "103",
+      "name": "Mobile World",
+      "location": "Nagpur"
+    },
+    {
+      "id": "104",
+      "name": "Sports Gear Inc.",
+      "location": "Mumbai"
+    },
+    {
+      "id": "105",
+      "name": "Elite Gadgets",
+      "location": "London"
+    },
+    {
+      "id": "106",
+      "name": "Home Essentials",
+      "location": "Mumbai"
+    },
+    {
+      "id": "107",
+      "name": "Musical Wonders",
+      "location": "Hyderabad"
+    },
+    {
+      "id": "108",
+      "name": "Modern Furniture Co.",
+      "location": "Ulhasnagar"
+    },
+    {
+      "id": "109",
+      "name": "Storage Solutions",
+      "location": "Mumbai"
+    },
+    {
+      "id": "110",
+      "name": "Smart Lighting Ltd.",
+      "location": "Delhi"
+    },
+    {
+      "id": "120",
+      "name": "Shyam Electricals",
+      "location": "Mumbai"
+    }
+  ],
+  "inventory": [
+    {
+      "id": "7",
+      "vendors": [
+        101,
+        102,
+        103
+      ],
+      "stock": 107
+    },
+    {
+      "id": "6",
+      "vendors": [
+        "101",
+        "102",
+        "103",
+        "104"
+      ],
+      "stock": 107
+    },
+    {
+      "id": "11",
+      "vendors": [
+        "101",
+        "102"
+      ],
+      "stock": 122
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "email": "jonathandabre01@gmail.com",
+      "password": "Jonathan01",
+      "address": "Mumbai",
+      "pincode": 401202
+    },
+    {
+      "id": "2",
+      "email": "rohitsharma264@gmail.com",
+      "password": "Rohit264",
+      "address": "Mumbai",
+      "pincode": 401202
+    },
+    {
+      "id": "3",
+      "email": "viratkohli18@gmail.com",
+      "password": "Virat18",
+      "address": "Mumbai",
+      "pincode": 401202
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customer_id": "2",
+      "product_id": "4",
+      "vendor_id": "103"
+    },
+    {
+      "id": "2",
+      "customer_id": "3",
+      "product_id": "4",
+      "vendor_id": "105"
+    },
+    {
+      "id": "3",
+      "customer_id": "2",
+      "product_id": "6",
+      "vendor_id": "103"
     }
   ]
 }
